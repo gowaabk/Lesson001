@@ -13,6 +13,9 @@ if (firstNum > secondNum) Console.WriteLine($" Max = {firstNum} ");
 else
 {
     if (firstNum < secondNum) Console.WriteLine($" Max = {secondNum}");
-    Console.WriteLine(" Введены одинаковые числа.");
+    else
+    {
+        Console.WriteLine(" Введены одинаковые числа.");
+    }
 }
 
